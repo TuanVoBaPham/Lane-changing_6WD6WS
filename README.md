@@ -8,13 +8,13 @@ The project focuses on robust lateral vehicle control during lane-change maneuve
 
 **Trajectory & Reference Generation (y_d, psi_d)**
 
-These blocks generate the reference lateral trajectory (y_d) and the desired yaw rate / yaw angle (psi_d).
+These blocks generate the reference lateral trajectory (y_d) and the desired yaw rate (psi_d).
 
 **Error Block (ERROR)**
 
 Defines the tracking errors between the reference signals and the actual vehicle states.
 <br>
-Computes: Lateral position error, Yaw (or yaw rate) tracking error
+Computes: Lateral position error, Yaw rate tracking error
 <br>
 The error signals are used as inputs to the Extended State Observer (ESO).
 
